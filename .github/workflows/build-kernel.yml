@@ -113,7 +113,7 @@ jobs:
       if: env.USE_ReKernel == 'true'
       run: |
         wget --no-check-certificate https://github.com/Sakion-Team/Re-Kernel/releases/download/modifier/Kernel-Modifier-v4.0.jar
-        "/usr/lib/jvm/java-18-openjdk-amd64/bin/java" -jar "Kernel-Modifier-v4.0.jar"
+        "/usr/lib/jvm/java-1-1openjdk-amd64/bin/java" -jar "Kernel-Modifier-v4.0.jar"
 
     - name: Setup ccache
       uses: hendrikmuhs/ccache-action@v1.2
